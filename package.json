@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server.js",      
+    "start": "node ./src/server.js",
     "git:push": "git add . && git commit -m \"auto commit\" && git push origin main"
   },
   "keywords": [
@@ -15,7 +15,8 @@
   "author": "Dat",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.10",
+    "dotenv": "16.0.3",
+    "ejs": "3.1.10",
     "express": "4.18.2"
   }
 }
