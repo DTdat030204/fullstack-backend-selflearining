@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-backend-zero",
+  "version": "1.0.0",
+  "description": "Thu lam web zero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "git:push": "git add . && git commit -m \"auto commit\" && git push origin main"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Dat",
+  "license": "ISC"
+}
