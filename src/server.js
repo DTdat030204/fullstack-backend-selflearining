@@ -36,6 +36,10 @@ app.set('view engine', 'ejs')
 
 // console.log(">>> check env: ", process.env);
 
+//config static files
+//app.use(express.static('public'))     cái này bị lỗi
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 // Khai báo route
 app.get('/', (req, res) => {
